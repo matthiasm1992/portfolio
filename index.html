@@ -8,27 +8,47 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to My Profile</h1>
-      <!-- Adding an image -->
-      <img id="avatar" src="avatar.png" alt="Profile picture" />
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
       <!-- About Me -->
-      <h2>About Me!</h2>
-      <p>
-        Hello World! I am an aspiring web developer and this is my first webpage
-        and I am practicing HTML and CSS.
-      </p>
+      <div class="about" id="about">
+        <h1>About Me!</h1>
+        <p class="monospace">
+          <b>Hello World!</b> I am an aspiring web developer and this is my
+          first webpage and I am practicing
+          <em style="font-weight: 600">HTML</em> and
+          <em style="font-weight: 600">CSS</em>.
+        </p>
+      </div>
 
-      <!-- Favourite Websites -->
-      <h2>My Favorite Websites</h2>
-      <ul>
-        <li>
-          <a href="https://youtube.com" target="_blank">YouTube</a>
-        </li>
-        <li>
-          <a href="https://github.com" target="_blank">GitHub</a>
-        </li>
-      </ul>
+      <div class="services" id="services">
+        <h2>Our Services</h2>
+        <p>We specialise in:</p>
+        <ul>
+          <li><span>Web Design</span></li>
+          <li><span>Content Creation</span></li>
+          <li><span>Digital Marketing</span></li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="contact" id="contact">
+        <h3>Contact Me</h3>
+        <p>
+          To get in touch, email me on:
+          <a href="mailto:matty.marshall92@gmail.com" class="highlight"
+            >matty.marshall92@gmail.com</a
+          >
+        </p>
+      </div>
     </div>
   </body>
 </html>
