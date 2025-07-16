@@ -199,5 +199,28 @@ header {
 .contact {
   background-color: #222;
   color: white;
-  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.contact .contact-left,
+.contact .contact-right {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact .contact-left p {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.contact .contact-right h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
