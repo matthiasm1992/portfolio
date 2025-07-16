@@ -35,6 +35,11 @@ ul {
   font-family: var(--ff-ibm);
 }
 
+/* TYPOGRAPHY */
+.highlight {
+  color: rgb(28, 97, 120);
+}
+
 /* HEADER */
 
 header {
@@ -77,13 +82,14 @@ header {
 }
 
 .nav-items li:hover a {
-  border-bottom: 2px solid white;
+  text-decoration: underline;
+  color: rgb(28, 97, 120);
 }
 
 .nav-items li a {
   color: white;
   font-weight: 600;
-  transition: all 0.9s ease;
+  transition: all 0.3s ease;
 }
 
 .social {
